@@ -1168,7 +1168,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 95 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 400 } // 400 e-steps for micro swiss ng
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
